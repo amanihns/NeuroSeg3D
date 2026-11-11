@@ -16,7 +16,7 @@ def get_neuroseg_model(in_channels=4, out_channels=3):
         channels=(16, 32, 64, 128, 256),
         strides=(2, 2, 2, 2),
         num_res_units=2,
-        norm="batch",
+        norm="instance",
     )
     return model
 
