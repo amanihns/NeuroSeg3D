@@ -221,3 +221,12 @@ __marimo__/
 dataset/
 *.nii.gz
 *.tar
+
+# NeuroSeg3D: data and model files
+data/
+checkpoints/
+*.nii
+*.nii.gz
+*.pth
+*.pt
+wandb/
