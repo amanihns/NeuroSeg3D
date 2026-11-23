@@ -219,6 +219,7 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 dataset/
+dataset/Task01_BrainTumour/
 *.nii.gz
 *.tar
 
